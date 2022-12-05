@@ -1,6 +1,6 @@
 # Introduction
 This is a guide for setting up a remote development environment with VS Code inspired by the conceptual illustration below.  This guide assumes the Local OS is *Windows* and the Remote OS is *Linux*.  Additional emphasis is placed on setting up a cloud based *on-demand environment* where the Remote OS can be easily stopped when not in use.
-![PowerShell Script Screenshot](docs\vscode-remote-dev-concept.jpg)
+![PowerShell Script Screenshot](docs/vscode-remote-dev-concept.jpg)
 
 # Background
 Remote development paradigms are great.   This [VS Code article](https://code.visualstudio.com/docs/remote/remote-overview) presents a laundry list of several benefits but here are the main points for me.  
@@ -93,7 +93,7 @@ Host ubuntu-desktop-on-EC2-001
 
 ## Step 4: Shutdown
 - When you are finished working in VS Code return to the PowerShell window and enter q to trigger the command that will shutdown your remote OS
-![PowerShell Script Screenshot](docs\ec2-startup-script-ss.jpg)
+![PowerShell Script Screenshot](docs/ec2-startup-script-ss.jpg)
 
 # Conclusion
 Message me if you give this a try or if you use something similar.  I'd love to hear how others feel about this paradigm.
@@ -125,7 +125,7 @@ Message me if you give this a try or if you use something similar.  I'd love to 
         ```
     - Configure RDP file
         - Run Remote Desktop Connection and configure logon settings as illustrated below
-        ![Connection Settings](docs\rdp-connection-settings-ss.jpg)
+        ![Connection Settings](docs/rdp-connection-settings-ss.jpg)
         - Click 'Connect' and enter password (your EC2 instance id) when prompted
         - Exit the RDP session and click 'Save' to store the connection settings to an RDP file
 
